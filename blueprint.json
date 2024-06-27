@@ -1,0 +1,28 @@
+{
+    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+    "preferredVersions": {
+        "php": "latest",
+        "wp": "beta"
+    },
+    "siteOptions": {
+        "blogname": "Dualtone theme playground demo"
+    },
+    "plugins": [
+        "create-block-theme",
+        "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/sahmi-main.zip",
+        "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/block-search-replace-tool-main.zip"
+    ],
+    "steps": [
+        {
+            "step": "installTheme",
+            "themeZipFile": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/dualtone-main.zip"
+            }
+        }
+    ],
+    "features": {
+        "networking": true
+    },
+    "landingPage": "/?p=7"
+}
