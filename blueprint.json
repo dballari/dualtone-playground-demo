@@ -2,7 +2,7 @@
     "$schema": "https://playground.wordpress.net/blueprint-schema.json",
     "preferredVersions": {
         "php": "latest",
-        "wp": "beta"
+        "wp": "latest"
     },
     "siteOptions": {
         "blogname": "Dualtone theme playground demo"
