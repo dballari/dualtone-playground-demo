@@ -31,10 +31,6 @@
             "command": "wp rewrite structure '/%postname%'"
         },
         {
-            "step": "wp-cli",
-            "command": "wp rewrite flush"
-        },
-        {
             "step": "importWxr",
             "file": {
                 "resource": "url",
