@@ -5,7 +5,7 @@
         "wp": "latest"
     },
     "siteOptions": {
-        "blogname": "Dualtone theme playground demo"
+        "blogname": "Dualtone demo"
     },
     "plugins": [
         "create-block-theme",
