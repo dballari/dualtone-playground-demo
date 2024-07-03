@@ -5,7 +5,8 @@
         "wp": "latest"
     },
     "siteOptions": {
-        "blogname": "Dualtone demo"
+        "blogname": "Dualtone demo",
+        "blogdescription": "A WordPress demo for the DualTone theme—with user patterns an companion plugins"
     },
     "plugins": [
         "create-block-theme",
