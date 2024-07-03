@@ -30,7 +30,7 @@
             "step": "importWxr",
             "file": {
                 "resource": "url",
-                "url": "raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/dualtonedemo.WordPress.2024-07-03.xml"
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/dualtonedemo.WordPress.2024-07-03.xml"
             }
         }
     ],
