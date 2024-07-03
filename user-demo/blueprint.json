@@ -15,6 +15,13 @@
     ],
     "steps": [
         {
+			"step": "updateUserMeta",
+			"meta": {
+				"admin_color": "ectoplasm"
+			},
+			"userId": 1
+		},
+        {
             "step": "installTheme",
             "themeZipFile": {
                 "resource": "wordpress.org/themes",
