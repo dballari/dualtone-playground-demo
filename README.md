@@ -1,4 +1,4 @@
-# ualTone theme playground demo
+# DualTone theme playground demo
 
 DualTone playground demo with user patterns.
 It's a Work in progress—demo content has no yet been finished
