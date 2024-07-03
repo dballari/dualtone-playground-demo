@@ -8,4 +8,4 @@ and thanks to Nick's post on [overrides in synced patterns](https://developer.wo
 
 While [Nick's playground demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wptrainingteam/developer-blog-playground-demos/main/synced-pattern-overrides/blueprint.json) is for advanced WordPress users to teach how to allow overrides, this playground demo is for end users to explore the theme.
 
-To see the demo in action, click on this [DualTone playground demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/blueprint.json) link.
+To see the user demo in action, click on this [DualTone playground user demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/blueprint.json) link.

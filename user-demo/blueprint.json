@@ -10,8 +10,8 @@
     },
     "plugins": [
         "create-block-theme",
-        "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/sahmi-main.zip",
-        "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/block-search-replace-tool-main.zip"
+        "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/sahmi-main.zip",
+        "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/block-search-replace-tool-main.zip"
     ],
     "steps": [
         {
@@ -27,10 +27,18 @@
             "password": "password"
         },
         {
+            "step": "wp-cli",
+            "command": "wp rewrite structure '/%postname%'"
+        },
+        {
+            "step": "wp-cli",
+            "command": "wp rewrite flush"
+        },
+        {
             "step": "importWxr",
             "file": {
                 "resource": "url",
-                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/dualtonedemo.WordPress.2024-07-03.xml"
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/dualtonedemo.WordPress.2024-07-03.xml"
             }
         }
     ],
