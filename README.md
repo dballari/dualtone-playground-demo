@@ -1,6 +1,7 @@
-# WORK IN PROGRESS NOT YET TESTED DEMO CONTENT NOT ADDED—DualTone theme playground demo
+# ualTone theme playground demo
 
-DualTone playground demo with user patterns and overrides.
+DualTone playground demo with user patterns.
+It's a Work in progress—demo content has no yet been finished
 
 Created thanks to Ronny's post on [how to use playground](https://developer.wordpress.org/news/2024/04/25/how-to-use-wordpress-playground-for-interactive-demos/)
 and thanks to Nick's post on [overrides in synced patterns](https://developer.wordpress.org/news/2024/06/18/an-introduction-to-overrides-in-synced-patterns/).
