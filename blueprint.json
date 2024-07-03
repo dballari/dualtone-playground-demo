@@ -16,13 +16,13 @@
         {
             "step": "installTheme",
             "themeZipFile": {
-                "resource": "url",
-                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/dualtone-main.zip"
+                "resource": "wordpress.org/themes",
+                "slug": "dualtone"
             }
         }
     ],
     "features": {
         "networking": true
     },
-    "landingPage": "/?p=7"
+    "landingPage": "/"
 }
