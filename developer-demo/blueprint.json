@@ -2,13 +2,14 @@
     "$schema": "https://playground.wordpress.net/blueprint-schema.json",
     "preferredVersions": {
         "php": "latest",
-        "wp": "latest"
+        "wp": "beta"
     },
     "siteOptions": {
         "blogname": "Dualtone Demo",
         "blogdescription": "A WordPress demo for the DualTone theme—with user patterns and companion plugins"
     },
     "plugins": [
+        "create-block-theme",
         "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/sahmi-main.zip",
         "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/block-search-replace-tool-main.zip"
     ],
