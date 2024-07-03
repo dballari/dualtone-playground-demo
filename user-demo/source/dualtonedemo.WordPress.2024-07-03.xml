@@ -281,7 +281,7 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.4031712375434734/?p=6</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>To access the WordPress administration interface, click on the options you will find on the left sidebar just, below the DualTone Demo site title.</p>
+<p>To access the WordPress administration interface, select the DualTone Demo-Dashboard option in the admin bar, on the top left corner, next to the WordPress icon.</p>
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>6</wp:post_id>
