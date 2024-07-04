@@ -9,10 +9,6 @@
     "features": {
         "networking": true
     },
-    "plugins": [
-        "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/sahmi-main.zip",
-        "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/block-search-replace-tool-main.zip"
-    ],
     "steps": [
         {
             "step": "setSiteOptions",
@@ -28,6 +24,20 @@
 			},
 			"userId": 1
 		},
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/sahmi-main.zip"
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/block-search-replace-tool-main.zip"
+            }
+        },
         {
             "step": "installTheme",
             "themeZipFile": {
