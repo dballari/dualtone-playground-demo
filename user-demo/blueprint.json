@@ -4,15 +4,23 @@
         "php": "latest",
         "wp": "latest"
     },
-    "siteOptions": {
-        "blogname": "Dualtone Demo",
-        "blogdescription": "A WordPress demo for the DualTone theme—with user patterns and companion plugins"
+    "landingPage": "/",
+    "login": true,
+    "features": {
+        "networking": true
     },
     "plugins": [
         "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/sahmi-main.zip",
         "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/block-search-replace-tool-main.zip"
     ],
     "steps": [
+        {
+            "step": "setSiteOptions",
+            "options": {
+                "blogname": "Dualtone Demo",
+                "blogdescription": "A WordPress demo for the DualTone theme—with user patterns and companion plugins"
+            }
+        },
         {
 			"step": "updateUserMeta",
 			"meta": {
@@ -28,11 +36,6 @@
             }
         },
         {
-            "step": "login",
-            "username": "admin",
-            "password": "password"
-        },
-        {
             "step": "runPHP",
             "code": "<?php require_once 'wordpress/wp-load.php';global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); update_option( 'rewrite_rules', FALSE ); $wp_rewrite->flush_rules( true );?>"
         },
@@ -43,9 +46,5 @@
                 "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/dualtonedemo.WordPress.2024-07-03.xml"
             }
         }
-    ],
-    "features": {
-        "networking": true
-    },
-    "landingPage": "/"
+    ]
 }
