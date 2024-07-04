@@ -18,12 +18,12 @@
             }
         },
         {
-			"step": "updateUserMeta",
-			"meta": {
-				"admin_color": "ectoplasm"
-			},
-			"userId": 1
-		},
+            "step": "updateUserMeta",
+            "meta": {
+            	"admin_color": "ectoplasm"
+            },
+            "userId": 1
+        },
         {
             "step": "installPlugin",
             "pluginZipFile": {
