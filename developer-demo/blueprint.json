@@ -1,19 +1,22 @@
 {
     "$schema": "https://playground.wordpress.net/blueprint-schema.json",
     "preferredVersions": {
-        "php": "latest",
+        "php": "8.0",
         "wp": "beta"
     },
-    "siteOptions": {
-        "blogname": "Dualtone Demo",
-        "blogdescription": "A WordPress demo for the DualTone theme—with user patterns and companion plugins"
+    "landingPage": "/",
+    "login": true,
+    "features": {
+        "networking": true
     },
-    "plugins": [
-        "create-block-theme",
-        "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/sahmi-main.zip",
-        "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/block-search-replace-tool-main.zip"
-    ],
     "steps": [
+        {
+            "step": "setSiteOptions",
+            "options": {
+                "blogname": "Dualtone Demo",
+                "blogdescription": "A WordPress demo for the DualTone theme—with user patterns and companion plugins"
+            }
+        },
         {
 			"step": "updateUserMeta",
 			"meta": {
@@ -22,16 +25,25 @@
 			"userId": 1
 		},
         {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/sahmi-main.zip"
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/block-search-replace-tool-main.zip"
+            }
+        },
+        {
             "step": "installTheme",
             "themeZipFile": {
                 "resource": "wordpress.org/themes",
                 "slug": "dualtone"
             }
-        },
-        {
-            "step": "login",
-            "username": "admin",
-            "password": "password"
         },
         {
             "step": "runPHP",
@@ -44,9 +56,5 @@
                 "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/dualtonedemo.WordPress.2024-07-03.xml"
             }
         }
-    ],
-    "features": {
-        "networking": true
-    },
-    "landingPage": "/"
+    ]
 }
