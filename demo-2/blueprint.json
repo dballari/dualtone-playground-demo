@@ -53,7 +53,7 @@
             "step": "importWxr",
             "file": {
                 "resource": "url",
-                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/dualtonedemo.xml"
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/dualtonedemo.xml"
             }
         }
     ]
