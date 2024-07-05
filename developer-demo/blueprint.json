@@ -4,7 +4,7 @@
         "php": "8.0",
         "wp": "beta"
     },
-    "landingPage": "/",
+    "landingPage": "/wp-admin/post.php",
     "login": true,
     "features": {
         "networking": true
@@ -13,8 +13,7 @@
         {
             "step": "setSiteOptions",
             "options": {
-                "blogname": "Dualtone Demo",
-                "blogdescription": "A WordPress demo for the DualTone theme—with user patterns and companion plugins"
+                "blogname": "Dualtone Demo"
             }
         },
         {
@@ -35,7 +34,7 @@
             "step": "importWxr",
             "file": {
                 "resource": "url",
-                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/dualtonedemo.WordPress.2024-07-03.xml"
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/dualtonedemo.xml"
             }
         }
     ]
