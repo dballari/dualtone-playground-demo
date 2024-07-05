@@ -14,4 +14,6 @@ Demo 1: [DualTone theme with demo content and wp latest](https://playground.word
 
 Demo 2: [DualTone theme with demo content, companion plugins and wp latest](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo-2/blueprint.json)
 
-Demo 3: [DualTone theme with demo content, companion plugins and wp beta](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo-3/blueprint.json)
+Demo 3: [DualTone theme with demo content and wp beta](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo-3/blueprint.json)
+
+Demo 4: [DualTone theme with demo content, companion plugins and wp beta](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo-4/blueprint.json)
