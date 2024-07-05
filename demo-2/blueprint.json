@@ -2,7 +2,7 @@
     "$schema": "https://playground.wordpress.net/blueprint-schema.json",
     "preferredVersions": {
         "php": "8.0",
-        "wp": "beta"
+        "wp": "latest"
     },
     "landingPage": "/wp-admin/edit.php?post_type=page",
     "login": true,
@@ -13,7 +13,7 @@
         {
             "step": "setSiteOptions",
             "options": {
-                "blogname": "Dualtone Demo",
+                "blogname": "Dualtone Demo2",
                 "blogdescription": "A WordPress demo for the DualTone theme—with user patterns and companion plugins"
             }
         },
@@ -23,6 +23,20 @@
             	"admin_color": "ectoplasm"
             },
             "userId": 1
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/sahmi-main.zip"
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/block-search-replace-tool-main.zip"
+            }
         },
         {
             "step": "installTheme",

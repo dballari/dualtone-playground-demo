@@ -1,0 +1,46 @@
+{
+    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+    "preferredVersions": {
+        "php": "8.0",
+        "wp": "latest"
+    },
+    "landingPage": "/",
+    "login": true,
+    "features": {
+        "networking": true
+    },
+    "steps": [
+        {
+            "step": "setSiteOptions",
+            "options": {
+                "blogname": "Dualtone Demo1",
+                "blogdescription": "A WordPress demo for the DualTone theme—with user patterns and companion plugins"
+            }
+        },
+        {
+            "step": "updateUserMeta",
+            "meta": {
+            	"admin_color": "ectoplasm"
+            },
+            "userId": 1
+        },
+        {
+            "step": "installTheme",
+            "themeZipFile": {
+                "resource": "wordpress.org/themes",
+                "slug": "dualtone"
+            }
+        },
+        {
+            "step": "runPHP",
+            "code": "<?php require_once 'wordpress/wp-load.php';global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); update_option( 'rewrite_rules', FALSE ); $wp_rewrite->flush_rules( true );?>"
+        },
+        {
+            "step": "importWxr",
+            "file": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/dualtonedemo.xml"
+            }
+        }
+    ]
+}

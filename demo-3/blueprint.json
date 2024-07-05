@@ -2,9 +2,9 @@
     "$schema": "https://playground.wordpress.net/blueprint-schema.json",
     "preferredVersions": {
         "php": "8.0",
-        "wp": "latest"
+        "wp": "beta"
     },
-    "landingPage": "/",
+    "landingPage": "/wp-admin/edit.php?post_type=page",
     "login": true,
     "features": {
         "networking": true
@@ -13,7 +13,7 @@
         {
             "step": "setSiteOptions",
             "options": {
-                "blogname": "Dualtone Demo",
+                "blogname": "Dualtone Demo3",
                 "blogdescription": "A WordPress demo for the DualTone theme—with user patterns and companion plugins"
             }
         },
