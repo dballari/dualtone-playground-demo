@@ -4,7 +4,7 @@
         "php": "8.0",
         "wp": "beta"
     },
-    "landingPage": "/wp-admin/post.php",
+    "landingPage": "/wp-admin/edit.php?post_type=page",
     "login": true,
     "features": {
         "networking": true
@@ -29,6 +29,10 @@
                 "resource": "wordpress.org/themes",
                 "slug": "dualtone"
             }
+        },
+        {
+            "step": "runPHP",
+            "code": "<?php require_once 'wordpress/wp-load.php';global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); update_option( 'rewrite_rules', FALSE ); $wp_rewrite->flush_rules( true );?>"
         },
         {
             "step": "importWxr",
