@@ -28,14 +28,14 @@
             "step": "installPlugin",
             "pluginZipFile": {
                 "resource": "url",
-                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/sahmi-main.zip"
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/sahmi-main.zip"
             }
         },
         {
             "step": "installPlugin",
             "pluginZipFile": {
                 "resource": "url",
-                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/user-demo/source/block-search-replace-tool-main.zip"
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/block-search-replace-tool-main.zip"
             }
         },
         {
