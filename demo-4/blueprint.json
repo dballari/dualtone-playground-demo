@@ -13,7 +13,8 @@
         {
             "step": "setSiteOptions",
             "options": {
-                "blogname": "Dualtone Demo 4"
+                "blogname": "Dualtone Demo4",
+                "blogdescription": "A WordPress demo for the DualTone theme with user patterns and companion plugins"
             }
         },
         {
@@ -52,7 +53,7 @@
             "step": "importWxr",
             "file": {
                 "resource": "url",
-                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/dualtonedemotest.xml"
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/dualtonedemo.xml"
             }
         }
     ]

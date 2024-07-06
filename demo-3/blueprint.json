@@ -13,7 +13,8 @@
         {
             "step": "setSiteOptions",
             "options": {
-                "blogname": "Dualtone Demo3"
+                "blogname": "Dualtone Demo3",
+                "blogdescription": "A WordPress demo for the DualTone theme with user patterns and companion plugins"
             }
         },
         {
