@@ -14,7 +14,8 @@
             "step": "setSiteOptions",
             "options": {
                 "blogname": "Dualtone Demo1",
-                "blogdescription": "A WordPress demo for the DualTone theme with user patterns and companion plugins"
+                "blogdescription": "A WordPress demo for the DualTone theme with user patterns and companion plugins",
+                "posts_per_page": "5"
             }
         },
         {
