@@ -14,7 +14,8 @@
             "step": "setSiteOptions",
             "options": {
                 "blogname": "Dualtone Demo4",
-                "blogdescription": "A WordPress playground demo for the DualTone theme with some demo content, companion plugins and a beta wp version"
+                "blogdescription": "A WordPress playground demo for the DualTone theme with some demo content, companion plugins and a beta wp version",
+                "posts_per_page": "5"
             }
         },
         {
