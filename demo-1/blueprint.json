@@ -42,6 +42,10 @@
                 "resource": "url",
                 "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/dualtonedemocontent.xml"
             }
+        },
+        {
+            "step": "runPHP",
+            "code": "<?php require_once 'wordpress/wp-load.php';wp_update_post( ['ID' => 1, 'post_date' => '2019-02-12 10:37:23'] ); wp_update_post( ['ID' => 2, 'post_status' => 'trash'] );?>"
         }
     ]
 }
