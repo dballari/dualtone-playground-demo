@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.5.5" created="2024-07-07 19:34" -->
+	<!-- generator="WordPress/6.5.5" created="2024-07-07 19:39" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -27,13 +27,13 @@
 
 <channel>
 	<title>Dualtone Demo2</title>
-	<link>https://playground.wordpress.net/scope:0.8520794984998871</link>
+	<link>https://playground.wordpress.net/scope:0.7102944687393890</link>
 	<description>A WordPress playground demo for the DualTone theme with some demo content and companion plugins</description>
-	<pubDate>Sun, 07 Jul 2024 19:34:55 +0000</pubDate>
+	<pubDate>Sun, 07 Jul 2024 19:39:40 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>https://playground.wordpress.net/scope:0.8520794984998871</wp:base_site_url>
-	<wp:base_blog_url>https://playground.wordpress.net/scope:0.8520794984998871</wp:base_blog_url>
+	<wp:base_site_url>https://playground.wordpress.net/scope:0.7102944687393890</wp:base_site_url>
+	<wp:base_blog_url>https://playground.wordpress.net/scope:0.7102944687393890</wp:base_blog_url>
 
 		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[admin]]></wp:author_login><wp:author_email><![CDATA[admin@localhost.com]]></wp:author_email><wp:author_display_name><![CDATA[admin]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -205,7 +205,7 @@
 
 		<item>
 		<title><![CDATA[Hello world!]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/hello-world/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/hello-world/</link>
 		<pubDate>Wed, 26 Jun 2024 08:47:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:9400/?p=1</guid>
@@ -217,8 +217,8 @@
 		<wp:post_id>1</wp:post_id>
 		<wp:post_date><![CDATA[2019-02-12 10:37:23]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-06-26 08:47:16]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-07-07 19:33:25]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-07-07 19:33:25]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 19:38:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 19:38:19]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[hello-world]]></wp:post_name>
@@ -276,7 +276,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 					</item>
 					<item>
 		<title><![CDATA[Sample Page]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/?page_id=2</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/?page_id=2</link>
 		<pubDate>Wed, 26 Jun 2024 08:47:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:9400/?page_id=2</guid>
@@ -304,8 +304,8 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 		<wp:post_id>2</wp:post_id>
 		<wp:post_date><![CDATA[2024-06-26 08:47:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-06-26 08:47:16]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-07-07 19:33:25]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-07-07 19:33:25]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 19:38:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 19:38:19]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[sample-page__trashed]]></wp:post_name>
@@ -326,7 +326,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Privacy Policy]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/privacy-policy/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/privacy-policy/</link>
 		<pubDate>Wed, 26 Jun 2024 08:47:16 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://127.0.0.1:9400/?page_id=3</guid>
@@ -408,8 +408,8 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 		<wp:post_id>3</wp:post_id>
 		<wp:post_date><![CDATA[2024-06-26 08:47:16]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-06-26 08:47:16]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-07-07 19:33:25]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-07-07 19:33:25]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 19:38:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 19:38:19]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[privacy-policy]]></wp:post_name>
@@ -426,7 +426,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Navigation]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/navigation/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/navigation/</link>
 		<pubDate>Wed, 03 Jul 2024 12:24:51 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.4031712375434734/?p=4</guid>
@@ -482,7 +482,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Welcome to the DualTone playground demo]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/welcome-to-the-dualtone-playground-demo/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/welcome-to-the-dualtone-playground-demo/</link>
 		<pubDate>Fri, 05 Jul 2024 12:29:33 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.4031712375434734/?p=6</guid>
@@ -625,7 +625,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Custom Styles]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/wp-global-styles-dualtone/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/wp-global-styles-dualtone/</link>
 		<pubDate>Wed, 03 Jul 2024 12:27:47 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.4031712375434734/?p=7</guid>
@@ -686,7 +686,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Three mistakes you can´t afford to make when publishing content in your blog]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/three-mistakes-you-cant-afford-to-make-when-publishing-content-in-your-blog/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/three-mistakes-you-cant-afford-to-make-when-publishing-content-in-your-blog/</link>
 		<pubDate>Fri, 02 Feb 2024 07:08:46 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.4646651924934204/?p=9</guid>
@@ -828,7 +828,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[About]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/about/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/about/</link>
 		<pubDate>Sat, 06 Jul 2024 07:47:35 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.0606081266712699/?page_id=11</guid>
@@ -880,7 +880,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Services]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/services/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/services/</link>
 		<pubDate>Sat, 06 Jul 2024 08:38:13 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.4047800810864728/?page_id=15</guid>
@@ -928,7 +928,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Contact]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/contact/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/contact/</link>
 		<pubDate>Sat, 06 Jul 2024 08:38:34 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.4047800810864728/?page_id=17</guid>
@@ -976,7 +976,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[How to install and start designing and creating a blog from scratch, with the DualTone theme]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/how-to-install-and-start-designing-and-creating-a-blog-from-scratch-with-the-dualtone-theme/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/how-to-install-and-start-designing-and-creating-a-blog-from-scratch-with-the-dualtone-theme/</link>
 		<pubDate>Tue, 06 Feb 2024 08:58:37 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.4047800810864728/?p=22</guid>
@@ -1094,7 +1094,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[How to use the DualTone theme for blasting fast content creation and awesome results]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/how-to-use-the-dualtone-theme-for-blasting-fast-content-creation-and-awesome-results/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/how-to-use-the-dualtone-theme-for-blasting-fast-content-creation-and-awesome-results/</link>
 		<pubDate>Wed, 06 Mar 2024 09:03:53 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.4047800810864728/?p=24</guid>
@@ -1212,7 +1212,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[How to create your own content marketing strategy and successfully execute it]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/how-to-create-your-own-content-marketing-strategy-and-successfully-execute-it/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/how-to-create-your-own-content-marketing-strategy-and-successfully-execute-it/</link>
 		<pubDate>Sat, 06 Apr 2024 09:06:48 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.4047800810864728/?p=26</guid>
@@ -1368,7 +1368,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Three real world tips for pushing your content marketing to the next level]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/three-real-world-tips-for-pushing-your-content-marketing-to-the-next-level/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/three-real-world-tips-for-pushing-your-content-marketing-to-the-next-level/</link>
 		<pubDate>Fri, 26 Apr 2024 09:08:36 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.4047800810864728/?p=28</guid>
@@ -1518,7 +1518,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Demo sidebar header]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/demo-sidebar-header/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/demo-sidebar-header/</link>
 		<pubDate>Sun, 07 Jul 2024 19:10:45 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.5038765772850949/demo-sidebar-header/</guid>
@@ -1538,8 +1538,8 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 		<wp:post_id>33</wp:post_id>
 		<wp:post_date><![CDATA[2024-07-07 19:10:45]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-07-07 19:10:45]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-07-07 19:34:34]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-07-07 19:34:34]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-07-07 19:39:21]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-07-07 19:39:21]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[demo-sidebar-header]]></wp:post_name>
@@ -1561,7 +1561,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Sidebar header]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/sidebar-header/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/sidebar-header/</link>
 		<pubDate>Sun, 07 Jul 2024 19:11:05 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.5038765772850949/sidebar-header/</guid>
@@ -1599,7 +1599,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Demo sidebar content]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/demo-sidebar-content/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/demo-sidebar-content/</link>
 		<pubDate>Sun, 07 Jul 2024 19:13:21 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.5038765772850949/demo-sidebar-content/</guid>
@@ -1634,7 +1634,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Sidebar content]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/sidebar-content/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/sidebar-content/</link>
 		<pubDate>Sun, 07 Jul 2024 19:13:30 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.5038765772850949/sidebar-content/</guid>
@@ -1672,7 +1672,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Demo footer]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/demo-footer/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/demo-footer/</link>
 		<pubDate>Sun, 07 Jul 2024 19:14:20 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.5038765772850949/demo-footer/</guid>
@@ -1729,7 +1729,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Navigation with search categories and tags]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/navigation-with-search-categories-and-tags/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/navigation-with-search-categories-and-tags/</link>
 		<pubDate>Sun, 07 Jul 2024 19:21:35 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.9176092999454878/?p=43</guid>
@@ -1795,7 +1795,7 @@ Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow 
 							</item>
 					<item>
 		<title><![CDATA[Footer]]></title>
-		<link>https://playground.wordpress.net/scope:0.8520794984998871/footer/</link>
+		<link>https://playground.wordpress.net/scope:0.7102944687393890/footer/</link>
 		<pubDate>Sun, 07 Jul 2024 19:14:29 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">https://playground.wordpress.net/scope:0.5038765772850949/footer/</guid>
