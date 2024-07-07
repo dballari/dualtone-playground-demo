@@ -15,7 +15,7 @@
             "options": {
                 "blogname": "Dualtone Demo2",
                 "blogdescription": "A WordPress playground demo for the DualTone theme with some demo content and companion plugins",
-                "posts_per_page": "5"
+                "posts_per_page": "4"
             }
         },
         {
