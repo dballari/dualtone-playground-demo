@@ -36,6 +36,9 @@
             "pluginData": {
                 "resource": "url",
                 "url": "https://github-proxy.com/proxy/?repo=dballari/sahmi"
+            },
+            "options": {
+                "activate": false
             }
         },
         {
@@ -43,6 +46,9 @@
             "pluginData": {
                 "resource": "url",
                 "url": "https://github-proxy.com/proxy/?repo=dballari/block-search-replace-tool"
+            },
+            "options": {
+                "activate": false
             }
         },
         {
@@ -50,6 +56,9 @@
             "pluginData": {
                 "resource": "url",
                 "url": "https://github-proxy.com/proxy/?repo=dballari/custom-search-excerpt"
+            },
+            "options": {
+                "activate": false
             }
         },
         {
