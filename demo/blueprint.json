@@ -35,7 +35,7 @@
             "step": "installPlugin",
             "pluginData": {
                 "resource": "url",
-                "url": "https://github-proxy.com/proxy/?repo=dballari/dualtone-playground-demo/main/demo/sahmi-main.zip"
+                "url": "https://github-proxy.com/proxy/?repo=dballari/sahmi"
             },
             "options": {
                 "activate": false
@@ -45,7 +45,7 @@
             "step": "installPlugin",
             "pluginData": {
                 "resource": "url",
-                "url": "https://github-proxy.com/proxy/?repo=dballari/dualtone-playground-demo/main/demo/block-search-replace-tool-main.zip"
+                "url": "https://github-proxy.com/proxy/?repo=dballari/block-search-replace-tool-main"
             },
             "options": {
                 "activate": false
@@ -55,7 +55,7 @@
             "step": "installPlugin",
             "pluginData": {
                 "resource": "url",
-                "url": "https://github-proxy.com/proxy/?repo=dballari/dualtone-playground-demo/main/demo/custom-search-excerpt-main.zip"
+                "url": "https://github-proxy.com/proxy/?repo=dballari/custom-search-excerpt-main"
             },
             "options": {
                 "activate": false
@@ -65,7 +65,7 @@
             "step": "installPlugin",
             "pluginData": {
                 "resource": "url",
-                "url": "https://github-proxy.com/proxy/?repo=dballari/dualtone-playground-demo/main/demo/simple-password-protect-main.zip"
+                "url": "https://github-proxy.com/proxy/?repo=dballari/simple-password-protect-main"
             },
             "options": {
                 "activate": false
