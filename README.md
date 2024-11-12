@@ -7,14 +7,8 @@ and thanks to Nick's post on [overrides in synced patterns](https://developer.wo
 
 While [Nick's playground demo](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/wptrainingteam/developer-blog-playground-demos/main/synced-pattern-overrides/blueprint.json) is for advanced WordPress users to teach how to allow overrides, these playground demos are also for end users to explore the theme.
 
-## See demos in action
+More information and blueprint examples may be found in the [WordPress Blueprints Community Gallery repo](https://github.com/WordPress/blueprints/).
 
-Demo 1: [DualTone theme with demo content and wp latest](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo-1/blueprint.json)
-
-Demo 2: [DualTone theme with demo content, companion plugins and wp latest](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo-2/blueprint.json)
-
-Demo 3: [DualTone theme with demo content and wp beta](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo-3/blueprint.json)
-
-Demo 4: [DualTone theme with demo content, companion plugins and wp beta](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo-4/blueprint.json)
+## See demo in action
 
 Demo Seamless Mode: [DualTone in seamless mode](https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo/blueprint.json)
