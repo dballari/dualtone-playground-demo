@@ -1,20 +1,26 @@
 {
     "$schema": "https://playground.wordpress.net/blueprint-schema.json",
-    "preferredVersions": {
-        "php": "8.0",
-        "wp": "latest"
+    "meta": {
+        "title": "DualTone theme demo",
+        "description": "Blueprint with demo content for the DualTone theme",
+        "author": "dballari",
+        "categories": ["Themes", "Block themes"]
     },
-    "landingPage": "/",
-    "login": true,
+    "landingPage": "/wp-admin/edit.php?post_type=page",
     "features": {
         "networking": true
     },
+    "preferredVersions": {
+        "php": "8.3",
+        "wp": "beta"
+    },
+    "login": true,
     "steps": [
         {
             "step": "setSiteOptions",
             "options": {
                 "blogname": "Dualtone Demo",
-                "blogdescription": "A WordPress playground demo for the DualTone theme in seamless mode",
+                "blogdescription": "A WordPress playground demo for the DualTone theme with some demo content",
                 "posts_per_page": "4"
             }
         },
@@ -27,23 +33,61 @@
         },
         {
             "step": "installPlugin",
-            "pluginZipFile": {
-                "resource": "url",
-                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/sahmi.zip"
+            "pluginData": {
+            "resource": "git:directory",
+            "url": "https://github.com/dballari/sahmi.git",
+                "ref": "HEAD",
+                "path": "wp-content/plugins/sahmi"
+            },
+            "options": {
+                "activate": false
             }
         },
         {
             "step": "installPlugin",
-            "pluginZipFile": {
-                "resource": "url",
-                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/block-search-replace-tool.zip"
+            "pluginData": {
+            "resource": "git:directory",
+            "url": "https://github.com/dballari/block-search-replace-tool",
+                "ref": "HEAD",
+                "path": "wp-content/plugins/block-search-replace-tool"
+            },
+            "options": {
+                "activate": false
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginData": {
+            "resource": "git:directory",
+            "url": "https://github.com/dballari/custom-search-excerpt",
+                "ref": "HEAD",
+                "path": "wp-content/plugins/custom-search-excerpt"
+            },
+            "options": {
+                "activate": false
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginData": {
+            "resource": "git:directory",
+            "url": "https://github.com/dballari/simple-password-protect",
+                "ref": "HEAD",
+                "path": "wp-content/plugins/simple-password-protect"
+            },
+            "options": {
+                "activate": false
             }
         },
         {
             "step": "installTheme",
-            "themeZipFile": {
+            "themeData": {
                 "resource": "wordpress.org/themes",
                 "slug": "dualtone"
+            },
+            "options": {
+                "activate": true,
+                "importStarterContent": false
             }
         },
         {
@@ -54,7 +98,7 @@
             "step": "importWxr",
             "file": {
                 "resource": "url",
-                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/dualtonedemocontent-with-patterns-and-navigation.xml"
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/democontent.xml"
             }
         },
         {
