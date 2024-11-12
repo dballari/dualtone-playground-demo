@@ -34,8 +34,8 @@
         {
             "step": "installPlugin",
             "pluginData": {
-            "resource": "git:directory",
-            "url": "https://github.com/dballari/sahmi.git",
+                "resource": "git:directory",
+                "url": "https://github.com/dballari/sahmi.git",
                 "ref": "HEAD",
                 "path": "wp-content/plugins/sahmi"
             },
@@ -46,8 +46,8 @@
         {
             "step": "installPlugin",
             "pluginData": {
-            "resource": "git:directory",
-            "url": "https://github.com/dballari/block-search-replace-tool",
+                "resource": "git:directory",
+                "url": "https://github.com/dballari/block-search-replace-tool",
                 "ref": "HEAD",
                 "path": "wp-content/plugins/block-search-replace-tool"
             },
@@ -58,8 +58,8 @@
         {
             "step": "installPlugin",
             "pluginData": {
-            "resource": "git:directory",
-            "url": "https://github.com/dballari/custom-search-excerpt",
+                "resource": "git:directory",
+                "url": "https://github.com/dballari/custom-search-excerpt",
                 "ref": "HEAD",
                 "path": "wp-content/plugins/custom-search-excerpt"
             },
@@ -70,10 +70,8 @@
         {
             "step": "installPlugin",
             "pluginData": {
-            "resource": "git:directory",
-            "url": "https://github.com/dballari/simple-password-protect",
-                "ref": "HEAD",
-                "path": "wp-content/plugins/simple-password-protect"
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/source/sahmi.zip"
             },
             "options": {
                 "activate": false
