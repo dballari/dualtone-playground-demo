@@ -36,39 +36,20 @@
             "pluginData": {
                 "resource": "url",
                 "url": "https://github-proxy.com/proxy/?repo=dballari/sahmi"
-            },
-            "options": {
-                "activate": false
             }
         },
         {
             "step": "installPlugin",
             "pluginData": {
                 "resource": "url",
-                "url": "https://github-proxy.com/proxy/?repo=dballari/block-search-replace-tool-main"
-            },
-            "options": {
-                "activate": false
+                "url": "https://github-proxy.com/proxy/?repo=dballari/block-search-replace-tool"
             }
         },
         {
             "step": "installPlugin",
             "pluginData": {
                 "resource": "url",
-                "url": "https://github-proxy.com/proxy/?repo=dballari/custom-search-excerpt-main"
-            },
-            "options": {
-                "activate": false
-            }
-        },
-        {
-            "step": "installPlugin",
-            "pluginData": {
-                "resource": "url",
-                "url": "https://github-proxy.com/proxy/?repo=dballari/simple-password-protect-main"
-            },
-            "options": {
-                "activate": false
+                "url": "https://github-proxy.com/proxy/?repo=dballari/custom-search-excerpt"
             }
         },
         {
