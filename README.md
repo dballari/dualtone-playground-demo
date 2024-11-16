@@ -11,4 +11,6 @@ More information and blueprint examples may be found in the [WordPress Blueprint
 
 ## See demo in action
 
-Demo Seamless Mode: [DualTone in seamless mode](https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo/blueprint.json)
+Demo with content in Seamless Mode: [DualTone with content in seamless mode](https://playground.wordpress.net/?mode=seamless&blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo/blueprint.json)
+
+Demo with no content: [DualTone without demo content](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo-without-content/blueprint.json)
