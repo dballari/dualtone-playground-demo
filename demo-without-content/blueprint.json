@@ -1,0 +1,87 @@
+{
+    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+    "meta": {
+        "title": "DualTone no demo",
+        "description": "Blueprint with no content for the DualTone theme",
+        "author": "dballari",
+        "categories": ["Themes", "Block themes"]
+    },
+    "landingPage": "/wp-admin/edit.php?post_type=page",
+    "features": {
+        "networking": true
+    },
+    "preferredVersions": {
+        "php": "8.3",
+        "wp": "beta"
+    },
+    "login": true,
+    "steps": [
+        {
+            "step": "setSiteOptions",
+            "options": {
+                "blogname": "Dualtone Demo",
+                "blogdescription": "A WordPress playground demo for the DualTone theme with some demo content",
+                "posts_per_page": "4"
+            }
+        },
+        {
+            "step": "updateUserMeta",
+            "meta": {
+            	"admin_color": "ectoplasm"
+            },
+            "userId": 1
+        },
+        {
+            "step": "installPlugin",
+            "pluginData": {
+                "resource": "url",
+                "url": "https://github-proxy.com/proxy/?repo=dballari/sahmi"
+            },
+            "options": {
+                "activate": false
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginData": {
+                "resource": "url",
+                "url": "https://github-proxy.com/proxy/?repo=dballari/block-search-replace-tool"
+            },
+            "options": {
+                "activate": false
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginData": {
+                "resource": "url",
+                "url": "https://github-proxy.com/proxy/?repo=dballari/custom-search-excerpt"
+            },
+            "options": {
+                "activate": false
+            }
+        },
+        {
+            "step": "installTheme",
+            "themeData": {
+                "resource": "wordpress.org/themes",
+                "slug": "dualtone"
+            },
+            "options": {
+                "activate": true,
+                "importStarterContent": false
+            }
+        },
+        {
+            "step": "runPHP",
+            "code": "<?php require_once 'wordpress/wp-load.php';global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); update_option( 'rewrite_rules', FALSE ); $wp_rewrite->flush_rules( true );?>"
+        },
+        {
+            "step": "importWxr",
+            "file": {
+                "resource": "url",
+                "url": "https://raw.githubusercontent.com/dballari/dualtone-playground-demo/main/demo-without-content/demo-without-content.xml"
+            }
+        }
+    ]
+}
