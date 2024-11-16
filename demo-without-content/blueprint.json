@@ -20,7 +20,7 @@
             "step": "setSiteOptions",
             "options": {
                 "blogname": "Dualtone Demo",
-                "blogdescription": "A WordPress playground demo for the DualTone theme with some demo content",
+                "blogdescription": "A WordPress playground demo for the DualTone theme without content",
                 "posts_per_page": "4"
             }
         },
